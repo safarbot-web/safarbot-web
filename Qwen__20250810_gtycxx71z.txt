@@ -1,0 +1,12 @@
+safarbot-web/
+├── pages/
+│   ├── index.js          # Main page with Uzbek chat UI
+│   └── api/
+│       └── ai.js         # Connects to Qwen (your AI brain)
+├── public/
+│   └── favicon.ico
+├── styles/
+│   └── globals.css       # Clean, modern look
+├── .gitignore
+├── package.json          # App settings
+└── README.md             # Step-by-step guide (in Uzbek & English)
