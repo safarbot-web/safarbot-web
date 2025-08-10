@@ -1,0 +1,65 @@
+/* safarbot-web/styles/globals.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #1890ff;
+}
+
+main p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #1890ff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #90d0ff;
+  cursor: not-allowed;
+}
+
+.response {
+  background: #f0f7ff;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #1890ff;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
